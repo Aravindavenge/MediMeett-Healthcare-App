@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard - MediMeet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadDashboard()">
+
+<header>
+    <h1>MediMeet Dashboard</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="appointment.html">Book Appointment</a>
+    </nav>
+</header>
+
+<section class="dashboard-box">
+    <h2 id="welcomeUser"></h2>
+    <div id="appointmentDetails"></div>
+    <button onclick="logoutUser()">Logout</button>
+    <button onclick="cancelAppointment()">Cancel Appointment</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

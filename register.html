@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register - MediMeet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>MediMeet</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<section class="form-container">
+    <h2>Patient Registration</h2>
+    <form onsubmit="registerUser(event)">
+        <input type="text" id="regName" placeholder="Full Name" required>
+        <input type="email" id="regEmail" placeholder="Email Address" required>
+        <input type="password" id="regPassword" placeholder="Create Password" required>
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

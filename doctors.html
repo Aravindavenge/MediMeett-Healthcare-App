@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Doctors - MediMeet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>MediMeet</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="appointment.html">Book Appointment</a>
+        <a href="dashboard.html">Dashboard</a>
+    </nav>
+</header>
+
+<section class="doctor-section">
+    <h2>Our Specialists</h2>
+    <input type="text" id="searchDoctor" placeholder="Search by specialization..." onkeyup="searchDoctors()">
+
+    <div class="doctor-list">
+
+        <div class="doctor-card" data-specialization="cardiologist">
+            <img src="https://img.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg" width="150">
+            <h3>Dr. Rajesh Kumar</h3>
+            <p>Cardiologist</p>
+        </div>
+
+        <div class="doctor-card" data-specialization="dentist">
+            <img src="https://img.freepik.com/free-photo/portrait-smiling-young-doctor_53419-6241.jpg" width="150">
+            <h3>Dr. Priya Sharma</h3>
+            <p>Dentist</p>
+        </div>
+
+        <div class="doctor-card" data-specialization="neurologist">
+            <img src="https://img.freepik.com/free-photo/medium-shot-doctor-with-crossed-arms_23-2148868176.jpg" width="150">
+            <h3>Dr. Naveen Reddy</h3>
+            <p>Neurologist</p>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
